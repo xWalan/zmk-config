@@ -77,7 +77,7 @@
 
         EnterLeft {
             bindings = <&kp ENTER>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
         };
 
         TabClose {
