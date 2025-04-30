@@ -52,7 +52,7 @@
 
         Enter {
             bindings = <&kp ENTER>;
-            key-positions = <8 7>;
+            key-positions = <8 7 6>;
         };
 
         WindowLeft {
@@ -63,6 +63,26 @@
         WindowRight {
             bindings = <&kp LG(LS(RIGHT_ARROW))>;
             key-positions = <31 30>;
+        };
+
+        TabForward {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <33 34>;
+        };
+
+        TabBack {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <33 32>;
+        };
+
+        EnterLeft {
+            bindings = <&kp ENTER>;
+            key-positions = <1 2 3>;
+        };
+
+        TabClose {
+            bindings = <&kp LC(W)>;
+            key-positions = <32 33 34>;
         };
     };
 
