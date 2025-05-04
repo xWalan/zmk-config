@@ -58,6 +58,7 @@
         WindowLeft {
             bindings = <&kp LG(LS(LEFT_ARROW))>;
             key-positions = <20 21>;
+            layers = <0 1 2>;
         };
 
         WindowRight {
@@ -68,21 +69,25 @@
         TabForward {
             bindings = <&kp LC(TAB)>;
             key-positions = <33 34>;
+            layers = <0 1 2>;
         };
 
         TabBack {
             bindings = <&kp LC(LS(TAB))>;
             key-positions = <33 32>;
+            layers = <0 1 2>;
         };
 
         EnterLeft {
             bindings = <&kp ENTER>;
             key-positions = <2 1>;
+            layers = <0 1 2>;
         };
 
         TabClose {
             bindings = <&kp LC(W)>;
             key-positions = <32 33 34>;
+            layers = <0 1 2>;
         };
 
         GamingLayer {
@@ -127,20 +132,19 @@
         Gaming {
             display-name = "Game";
             bindings = <
-            &kp Z           &kp X  &kp C      &kp V         &sl 4     &trans  &trans  &trans  &trans  &trans
-            &kp TAB         &kp Q  &kp W      &kp E         &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESCAPE  &kp LEFT_SHIFT  &kp A  &kp S      &kp D         &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp LCTRL  &kp LEFT_ALT  &trans    &trans  &trans  &trans
+                &kp ESCAPE  &kp Q  &kp E      &kp R           &kp T     &trans  &trans  &trans  &trans  &trans
+                &kp TAB     &kp A  &kp W      &kp D           &kp F     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z       &kp X  &kp S      &kp C           &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                                   &kp LCTRL  &lt 4 LEFT_ALT  &trans    &trans  &trans  &trans
             >;
         };
 
         Gaming+ {
-            display-name = "Game+";
             bindings = <
-        &kp F10  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp T     &kp RA(RC(Y))  &kp RA(RC(U))  &trans  &trans  &kp LC(RA(DEL))
-        &kp L    &kp O         &kp Y         &kp K         &kp G     &kp F5         &kp F7         &trans  &trans  &kp F12
-&trans  &to 0    &trans        &trans        &trans        &trans    &trans         &trans         &trans  &trans  &kp F22          &kp LA(F4)
-                               &kp J         &kp I         &kp M     &trans         &trans         &trans
+        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
