@@ -107,10 +107,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp F2   &kp F5        &kp HOME        &kp PAGE_UP     &kp PAGE_UP        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &trans
-        &kp F11  &kp F12       &kp END         &kp UP_ARROW    &kp PAGE_DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_DIVIDE
-&trans  &kp F4   &kp LEFT_GUI  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_MINUS   &trans
-                               &trans          &trans          &trans             &trans        &trans        &trans
+        &kp F2   &kp F5   &kp HOME        &kp PAGE_UP     &kp PAGE_UP        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &trans
+        &kp F11  &kp F12  &kp END         &kp UP_ARROW    &kp PAGE_DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_DIVIDE
+&trans  &kp F3   &kp F4   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_MINUS   &trans
+                          &trans          &trans          &trans             &trans        &trans        &trans
             >;
         };
 
