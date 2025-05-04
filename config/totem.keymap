@@ -132,10 +132,10 @@
         Gaming {
             display-name = "Game";
             bindings = <
-                &kp ESCAPE  &kp Q  &kp E      &kp R           &kp T     &trans  &trans  &trans  &trans  &trans
-                &kp TAB     &kp A  &kp W      &kp D           &kp F     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z       &kp X  &kp S      &kp C           &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp LCTRL  &lt 4 LEFT_ALT  &trans    &trans  &trans  &trans
+                &kp ESCAPE  &kp Q  &kp NUMBER_2  &kp E           &kp R     &trans  &trans  &trans  &trans  &trans
+                &kp TAB     &kp A  &kp W         &kp D           &kp F     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z       &kp X  &kp S         &kp C           &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                                   &kp LCTRL     &lt 4 LEFT_ALT  &trans    &trans  &trans  &trans
             >;
         };
 
