@@ -124,7 +124,7 @@
             bindings = <
         &kp GRAVE             &trans  &trans  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
         &kp RA(NUMBER_2)      &trans  &trans  &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))    &kp DOLLAR     &kp PERCENT   &kp CARET             &kp MINUS              &trans
-&trans  &kp NON_US_BACKSLASH  &trans  &trans  &kp APOS                  &kp NON_US_HASH              &kp EXCL       &kp AT        &kp HASH              &kp EQUAL              &trans  &trans
+&trans  &kp NON_US_BACKSLASH  &trans  &trans  &kp LA(LC(APOS))          &kp LA(LC(NON_US_HASH))      &kp EXCL       &kp AT        &kp HASH              &kp EQUAL              &trans  &trans
                                       &trans  &trans                    &trans                       &trans         &trans        &trans
             >;
         };
