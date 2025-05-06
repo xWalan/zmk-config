@@ -104,7 +104,7 @@
             bindings = <
            &kp Q  &kp W  &kp E                 &kp R      &kp T        &kp Y          &kp U      &kp I         &kp O    &kp P
            &kp A  &kp S  &kp D                 &kp F      &kp G        &kp H          &kp J      &kp K         &kp L    &kp SEMI
-&kp LSHFT  &kp Z  &kp X  &kp C                 &kp V      &kp B        &kp N          &kp M      &kp COMMA     &kp DOT  &kp SLASH  &mt LEFT_ALT ESCAPE
+&kp LSHFT  &kp Z  &kp X  &kp C                 &kp V      &kp B        &kp N          &kp M      &kp COMMA     &kp DOT  &kp SLASH  &mt LEFT_ALT APOS
                          &mt LEFT_CONTROL DEL  &lt 1 TAB  &kp SPACE    &kp BACKSPACE  &lt 2 TAB  &kp LEFT_GUI
             >;
         };
@@ -122,9 +122,9 @@
         Sym {
             display-name = "Sym";
             bindings = <
-        &kp GRAVE             &trans  &trans  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DQT
+        &kp GRAVE             &trans  &trans  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
         &kp RA(NUMBER_2)      &trans  &trans  &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))    &kp DOLLAR     &kp PERCENT   &kp CARET             &kp MINUS              &trans
-&trans  &kp NON_US_BACKSLASH  &trans  &trans  &kp APOS                  &kp NON_US_HASH              &kp EXCL       &kp AT        &kp HASH              &kp EQUAL              &trans   &trans
+&trans  &kp NON_US_BACKSLASH  &trans  &trans  &kp APOS                  &kp NON_US_HASH              &kp EXCL       &kp AT        &kp HASH              &kp EQUAL              &trans  &trans
                                       &trans  &trans                    &trans                       &trans         &trans        &trans
             >;
         };
