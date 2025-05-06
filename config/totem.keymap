@@ -122,10 +122,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-                &kp EXCL              &kp AT            &kp HASH  &kp ASTERISK      &kp LEFT_PARENTHESIS    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT         &kp DQT
-                &trans                &kp RA(NUMBER_2)  &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &trans     &trans         &trans           &trans          &kp UP_ARROW
-&studio_unlock  &kp NON_US_BACKSLASH  &trans            &trans    &kp GT            &kp LESS_THAN           &kp UNDER  &kp EQUAL      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                                        &trans    &trans            &trans                  &trans     &trans         &trans
+        &kp EXCL              &kp AT            &kp HASH  &kp ASTERISK      &kp LEFT_PARENTHESIS    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT         &kp DQT
+        &trans                &kp RA(NUMBER_2)  &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp NUBS   &kp PIPE       &kp GRAVE        &trans          &kp UP_ARROW
+&trans  &kp NON_US_BACKSLASH  &trans            &trans    &kp GT            &kp LESS_THAN           &kp UNDER  &kp EQUAL      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &trans
+                                                &trans    &trans            &trans                  &trans     &trans         &trans
             >;
         };
 
@@ -142,8 +142,8 @@
         Gaming+ {
             bindings = <
         &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans        &trans        &trans        &kp I           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &kp M           &trans  &trans  &trans  &trans  &trans  &trans
                               &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
