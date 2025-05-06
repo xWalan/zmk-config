@@ -112,39 +112,39 @@
         Nav {
             display-name = "Nav";
             bindings = <
-        &kp F2   &kp F5   &kp HOME        &kp PAGE_UP     &kp PAGE_UP        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &trans
-        &kp F11  &kp F12  &kp END         &kp UP_ARROW    &kp PAGE_DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_DIVIDE
-&trans  &kp F3   &kp F4   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_MINUS   &trans
-                          &trans          &trans          &trans             &trans        &trans        &trans
+        &kp ESCAPE  &kp F2   &kp HOME        &kp F5          &kp PAGE_UP        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0     &trans
+        &kp F11     &trans   &kp END         &kp UP_ARROW    &kp PAGE_DOWN      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS      &kp KP_DIVIDE
+&trans  &kp F4      &kp F12  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp KP_MINUS   &trans
+                             &trans          &trans          &trans             &trans        &trans        &trans
             >;
         };
 
         Sym {
             display-name = "Sym";
             bindings = <
-        &kp EXCL              &kp AT            &kp HASH  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT         &kp DQT
-        &trans                &kp RA(NUMBER_2)  &trans    &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))    &kp NUBS   &kp PIPE       &kp GRAVE        &trans          &kp UP_ARROW
-&trans  &kp NON_US_BACKSLASH  &trans            &trans    &kp LEFT_BRACE            &kp RIGHT_BRACE              &kp EXCL   &kp UNDER      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &trans
-                                                &trans    &trans                    &trans                       &trans     &trans         &trans
+        &kp GRAVE             &trans  &trans  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DQT
+        &kp RA(NUMBER_2)      &trans  &trans  &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))    &kp DOLLAR     &kp PERCENT   &kp CARET             &kp MINUS              &trans
+&trans  &kp NON_US_BACKSLASH  &trans  &trans  &kp APOS                  &kp NON_US_HASH              &kp EXCL       &kp AT        &kp HASH              &kp EQUAL              &trans   &trans
+                                      &trans  &trans                    &trans                       &trans         &trans        &trans
             >;
         };
 
         Gaming {
             display-name = "Game";
             bindings = <
-                &kp ESCAPE  &kp Q  &kp NUMBER_2  &kp E           &kp R     &trans  &trans  &trans  &trans  &trans
-                &kp TAB     &kp A  &kp W         &kp D           &kp F     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp Z       &kp X  &kp S         &kp C           &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp LCTRL     &lt 4 LEFT_ALT  &trans    &trans  &trans  &trans
+                &kp GRAVE  &kp Q  &kp NUMBER_2  &kp E           &kp R     &trans  &trans  &trans  &trans  &trans
+                &kp TAB    &kp A  &kp W         &kp D           &kp F     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp Z      &kp X  &kp S         &kp C           &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                                  &kp LCTRL     &lt 4 LEFT_ALT  &trans    &trans  &trans  &trans
             >;
         };
 
         Gaming+ {
             bindings = <
-        &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans        &trans        &trans        &kp I           &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &kp M           &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans        &trans        &trans          &trans  &trans  &trans
+        &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans
+        &kp F3      &trans        &trans        &trans        &kp I           &trans  &trans  &trans  &trans  &trans
+&trans  &trans      &trans        &trans        &trans        &kp M           &trans  &trans  &trans  &trans  &trans  &trans
+                                  &trans        &trans        &trans          &trans  &trans  &trans
             >;
         };
     };
