@@ -122,10 +122,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-        &kp EXCL              &kp AT            &kp HASH  &kp ASTERISK      &kp LEFT_PARENTHESIS    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT         &kp DQT
-        &trans                &kp RA(NUMBER_2)  &trans    &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp NUBS   &kp PIPE       &kp GRAVE        &trans          &kp UP_ARROW
-&trans  &kp NON_US_BACKSLASH  &trans            &trans    &kp GT            &kp LESS_THAN           &kp UNDER  &kp EQUAL      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &trans
-                                                &trans    &trans            &trans                  &trans     &trans         &trans
+        &kp EXCL              &kp AT            &kp HASH  &kp ASTERISK              &kp LEFT_PARENTHESIS         &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT         &kp DQT
+        &trans                &kp RA(NUMBER_2)  &trans    &kp LA(LC(LEFT_BRACKET))  &kp LA(LC(RIGHT_BRACKET))    &kp NUBS   &kp PIPE       &kp GRAVE        &trans          &kp UP_ARROW
+&trans  &kp NON_US_BACKSLASH  &trans            &trans    &kp LEFT_BRACE            &kp RIGHT_BRACE              &kp EXCL   &kp UNDER      &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &trans
+                                                &trans    &trans                    &trans                       &trans     &trans         &trans
             >;
         };
 
