@@ -96,16 +96,25 @@
         };
     };
 
+    macros {
+        nn: nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(TILDE) &kp N>;
+            label = "NN";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         Base {
             display-name = "Base";
             bindings = <
-           &kp Q  &kp W  &kp E                 &kp R      &kp T        &kp Y          &kp U      &kp I         &kp O    &kp P
-           &kp A  &kp S  &kp D                 &kp F      &kp G        &kp H          &kp J      &kp K         &kp L    &kp SEMI
-&kp LSHFT  &kp Z  &kp X  &kp C                 &kp V      &kp B        &kp N          &kp M      &kp COMMA     &kp DOT  &kp SLASH  &mt LEFT_ALT APOS
-                         &mt LEFT_CONTROL DEL  &lt 1 TAB  &kp SPACE    &kp BACKSPACE  &lt 2 TAB  &kp LEFT_GUI
+            &kp Q           &kp W       &kp E                 &kp R             &kp T        &kp Y          &kp U        &kp I                &kp O            &kp P
+            &hm LEFT_GUI A  &hm LALT S  &hm LEFT_CONTROL D    &hm LEFT_SHIFT F  &kp G        &kp H          &hm RSHFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI
+&kp ESCAPE  &kp Z           &kp X       &kp C                 &kp V             &kp B        &kp N          &kp M        &kp COMMA            &kp DOT          &kp SLASH           &kp APOS
+                                        &mt LEFT_CONTROL DEL  &lt 1 TAB         &kp SPACE    &kp BACKSPACE  &lt 2 TAB    &kp MINUS
             >;
         };
 
@@ -132,19 +141,19 @@
         Gaming {
             display-name = "Game";
             bindings = <
-                &kp GRAVE    &kp Q  &kp E       &kp R    &kp T     &trans  &trans  &trans  &trans  &trans
-                &kp TAB      &kp A  &kp W       &kp D    &kp F     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &mt LCTRL Z  &kp X  &kp S       &kp C    &kp V     &trans  &trans  &trans  &trans  &trans  &trans
-                                    &mt LALT N  &lt 4 M  &trans    &trans  &trans  &trans
+         &sl 4           &kp X  &kp C             &kp V     &kp T     &trans  &trans  &trans  &trans  &trans
+         &kp TAB         &kp Q  &kp W             &kp E     &kp R     &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp LEFT_SHIFT  &kp A  &kp S             &kp D     &kp F     &trans  &trans  &trans  &trans  &trans  &trans
+                                &kp LEFT_CONTROL  &kp LALT  &trans    &trans  &trans  &trans
             >;
         };
 
         Gaming+ {
             bindings = <
-        &kp ESCAPE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp I     &trans  &trans  &trans  &trans  &trans
-        &kp F3      &trans        &trans        &trans        &kp G     &trans  &trans  &trans  &trans  &trans
-&trans  &trans      &kp B         &trans        &kp O         &kp P     &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans        &trans        &trans    &trans  &trans  &trans
+        &kp Z   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp I    &trans  &trans  &trans  &trans  &trans
+        &kp L   &kp B         &trans        &kp A         &kp G    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &kp P    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &kp M    &trans  &trans  &trans
             >;
         };
     };
