@@ -141,18 +141,18 @@
         Gaming {
             display-name = "Game";
             bindings = <
-         &sl 4           &kp X  &kp C             &kp V     &sl 4     &trans  &trans  &trans  &trans  &trans
-         &kp TAB         &kp Q  &kp W             &kp E     &kp R     &trans  &trans  &trans  &trans  &trans
-&kp ESC  &kp LEFT_SHIFT  &kp A  &kp S             &kp D     &kp F     &trans  &trans  &trans  &trans  &trans  &trans
-                                &kp LEFT_CONTROL  &kp LALT  &trans    &trans  &trans  &trans
+                &kp Z             &kp Q  &kp C  &kp E     &kp R     &trans  &trans  &trans  &trans  &trans
+                &kp TAB           &kp A  &kp W  &kp D     &kp F     &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp X  &kp S  &kp C     &kp V     &trans  &trans  &trans  &trans  &trans  &trans
+                                         &sl 4  &kp LALT  &trans    &trans  &trans  &trans
             >;
         };
 
         Gaming+ {
             bindings = <
         &kp Z   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp T    &trans  &trans  &trans  &trans  &trans
-        &kp L   &kp O         &trans        &kp I         &kp G    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &kp P    &trans  &trans  &trans  &trans  &trans  &trans
+        &kp L   &trans        &trans        &trans        &kp G    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp I         &trans        &kp O         &kp P    &trans  &trans  &trans  &trans  &trans  &trans
                               &kp B         &kp N         &kp M    &trans  &trans  &trans
             >;
         };
