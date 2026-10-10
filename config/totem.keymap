@@ -94,6 +94,21 @@
             bindings = <&tog 3>;
             key-positions = <33 36>;
         };
+
+        virtualLeft {
+            bindings = <&kp LG(LC(LEFT_ARROW))>;
+            key-positions = <20 21 10>;
+        };
+
+        virtualRight {
+            bindings = <&kp LG(LC(RIGHT_ARROW))>;
+            key-positions = <19 30 31>;
+        };
+
+        showDesktop {
+            bindings = <&kp LG(D)>;
+            key-positions = <35 36 37>;
+        };
     };
 
     macros {
